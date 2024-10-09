@@ -1,0 +1,37 @@
+ body {
+  font-family: $font-main;
+  z-index: 0;
+ }
+ 
+ .first__main {
+   padding: 1rem;
+   margin-top: 2rem;
+}
+
+.first__green {
+  color: $color-secondary;
+  font-weight: 50;
+}
+
+ .first__black {
+   font-family: $font-secondary;
+ }
+
+ .first__grey {
+  font-size: 22px;
+  color: $color-quaternary;
+ }
+ .button {
+    padding: 10px;
+    margin-top: 45px;
+    border: 2px solid $color-secondary;
+    color: $color-secondary; 
+    text-decoration: none; 
+    border-radius: 45px;
+    font-size: 18px;
+    font-weight: bold;
+ }
+
+ .second__main {
+  background-color: $color-tertiary;
+ }

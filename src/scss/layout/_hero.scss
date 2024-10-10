@@ -69,3 +69,11 @@
       bottom: -125px;
     }
   }
+
+  @media (min-width: 1200px) {
+    .header__container {
+      padding: 200px; 
+      width: auto;
+      height: auto;
+    }
+  }

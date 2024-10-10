@@ -67,6 +67,7 @@
         height: 30px;
       }
 
+
 }
 
 @media (min-width: 768px) {
@@ -82,5 +83,13 @@
   }
   .third {
     order: -1;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .arrow__up {
+    position: absolute;
+    bottom: -170px;
   }
 }

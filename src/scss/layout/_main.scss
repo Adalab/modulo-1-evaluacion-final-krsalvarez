@@ -90,3 +90,12 @@
  }
 
 }
+
+@media (max-width: 1200px) {
+  .column__container {
+   display: grid; 
+   grid-template-columns: repeat(3, 1fr);
+   gap: 170px;
+  }
+ 
+ }

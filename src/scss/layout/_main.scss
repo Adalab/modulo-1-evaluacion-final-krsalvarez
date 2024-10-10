@@ -40,7 +40,11 @@
  .second__main {
   padding-top: 20px;
   background-color: $color-tertiary;
+  display: grid;
+  grid-template-columns: 1fr; 
+  justify-items: center; 
   text-align: center;
+  
  }
 
  .second__grey {

@@ -1,7 +1,7 @@
 .header__container {
     text-align: center;
     color: white;
-    padding-top: 440px;
+    width: 100%;
     display: inline-block;
     justify-content: center;
     background-image: url('../images/cover.jpeg');
@@ -45,4 +45,27 @@
           height: 30px;
         }
   
+  }
+
+  @media (min-width: 768px) {
+    .header__container {
+      padding: 145px; 
+      width: auto;
+      height: auto;
+    }
+
+    .header__title {
+      font-size: 70px;
+      position: relative;
+      bottom: -125px;
+    }
+    .header__text {
+      font-size: 30px;
+      position: relative;
+      bottom: -125px;
+    }
+    .arrow__down {
+      position: relative;
+      bottom: -125px;
+    }
   }

@@ -5,6 +5,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Evaluación Final</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
@@ -12,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
     
-  <link rel="stylesheet" href="./assets/index-fa900b52.css">
+  <link rel="stylesheet" href="./assets/index-bf6b43f5.css">
 </head>
 
 <body>
@@ -23,14 +27,15 @@
         </a>
     </div>
 </header>
-    <div class="header__container">
-    <h1 class="header__title">COMIENZOS COMPARTIDOS</h1>
+    <div class="header__container" id="hero">
+    <div class="text__hero"><h1 class="header__title">COMIENZOS COMPARTIDOS</h1>
     <p class="header__text">Todo lo que necesitan para volver al cole con ilusión</p>
     <div class="arrow__down">
-        <a href="#main">
+        <a href="#vuelta">
             <img src="./images/ico-scroll-down.svg" alt="flecha hacia abajo">
         </a>
     </div>
+</div>
 </div>
     <main id="main">
     <section class="first__main"><h4 class="first__green">HISTORIAS, MODA Y ROPA DEPORTIVA</h4>
@@ -40,18 +45,28 @@
     <a href="#" class="button__empty">Comprar</a>
 </section>
 
-<section class="second__main">
+<section class="second__main" id="vuelta">
     <h5 class="second__grey">¡Prepáralos con tus marcas favoritas!</h5>
     <h2 class="second__black">VUELTA AL COLE</h2>
-
+<div class="column__container">
     <div class="second__image"><img src="./images/lpbts-mod05-img01-desk.png">
     <h3>Mochilas escolares</h3></div>
     <div class="second__image"><img src="./images/lpbts-mod05-img04-mob.png">
         <h3>Estuches</h3></div>
     <div class="second__image"><img src="./images/lpbts-mod05-img03-mob.png">
         <h3>Bolsas de deporte</h3></div>
+
+    </div>
         <a href="#" class="button__full">Empezar ahora</a>
 </section>
+
+<div class="arrow__father">
+    <div class="arrow__up">
+        <a href="#hero">
+            <img src="./images/ico-arrow.svg" alt="flecha hacia arriba">
+        </a>
+    </div>
+</div>
 </main>
     <footer class="footer">
     <div class="first">
@@ -75,7 +90,7 @@
     <div class="third">
         <ul class="third__li">
             <li>&copy;2023</li>
-            <li>we run</li>
+            <li>we <i class="fa-regular fa-heart"></i> run</li>
         </ul>
     </div>
 </footer>

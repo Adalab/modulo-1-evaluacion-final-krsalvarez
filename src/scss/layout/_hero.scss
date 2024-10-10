@@ -2,15 +2,17 @@
     text-align: center;
     color: white;
     width: 100%;
-    display: inline-block;
-    justify-content: center;
     background-image: url('../images/cover.jpeg');
+    background-size: cover;
     background-position: 85%;
-    height: 90vh;
+    height: 100vh;
     z-index: 0;
-    margin-top: -35px;
-    margin-left: -35px;
     padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 5px;
   }
   
   .header__title {
@@ -47,33 +49,4 @@
   
   }
 
-  @media (min-width: 768px) {
-    .header__container {
-      padding: 145px; 
-      width: auto;
-      height: auto;
-    }
-
-    .header__title {
-      font-size: 70px;
-      position: relative;
-      bottom: -125px;
-    }
-    .header__text {
-      font-size: 30px;
-      position: relative;
-      bottom: -125px;
-    }
-    .arrow__down {
-      position: relative;
-      bottom: -125px;
-    }
-  }
-
-  @media (min-width: 1200px) {
-    .header__container {
-      padding: 200px; 
-      width: auto;
-      height: auto;
-    }
-  }
+  
